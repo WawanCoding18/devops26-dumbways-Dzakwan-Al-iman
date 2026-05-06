@@ -7,5 +7,3 @@ lanjut alur ke release, deploy, operate, hingga monitor yaitu ranah operation.
 Jadi menurut saya DevOps adalah suatu lifesycle dari development hingga operation yang dimana
 DevOps berperan agar lifesycle tersebut dapat diotomatisasi sehingga dapat mempercepat proses 
 development, menurunkan tingkat kegagalan, hingga mempersingkat waktu perbaikan development dan operation.
-
-
