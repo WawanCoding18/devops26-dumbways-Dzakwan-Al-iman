@@ -1,4 +1,10 @@
-# Apa itu DevOps?
+# DAY-1
+
+STAGE-1
+---------
+Task Completion
+
+# 1. Apa itu DevOps?
 
 Jadi DevOps itu singkatan dari development dan operation, yakni
 alur dari plan, code, build, text yaitu ranah developer lalu
@@ -10,7 +16,7 @@ development, menurunkan tingkat kegagalan, hingga mempersingkat waktu perbaikan 
 
 ---
 
-# Instalasi Ubuntu
+# 2. Instalasi Ubuntu
 
 1. Download virtual machine Oracle terlebih dahulu pada link https://www.virtualbox.org/wiki/Downloads.
 2. Download Ubuntu pada link https://ubuntu.com/download
@@ -26,9 +32,24 @@ pada vm tersebut.
 dll sampai selesai.
 10. Jika sudah selesai maka hasilnya akan seperti ini:
 
-![hasil instalasi ubuntu](images/ping.jpeg)
+![hasil instalasi ubuntu](images/berhasil.jpeg)
+Hasil instalasi Ubuntu
 
+---
 
+## 3. IP Address Server VM
 
-![Memastikan Ubuntu terkoneksi dengan internet](images/ping_8.8.8.8.jpeg)
+IP Address server VM: 192.168.8.208
+
+![Net 208](images/ip.png)
+Berubah menjadi IP xxx.xxxx.208
+
+---
+
+## 4. Test Jaringan
+
+Test jaringan menggunakan command ping 8.8.8.8
+
+![Memastikan Ubuntu terkoneksi dengan internet](images/ping_8.8.8.8.png)
+Memastikan Ubuntu terkoneksi dengan internet
 
