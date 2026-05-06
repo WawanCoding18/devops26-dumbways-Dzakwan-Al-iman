@@ -1,8 +1,0 @@
-# Readme
-
-
-
-
-
-
-![Deskripsi](ping.jpeg)
