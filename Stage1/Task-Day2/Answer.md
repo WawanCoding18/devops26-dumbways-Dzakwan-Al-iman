@@ -1,10 +1,10 @@
 # DAY-2
 
-STAGE-2
+STAGE-1
 ---------
 Task Completion
 
-# 1. Diagram dengan jaringan komputer dengan 4 device?
+# 1. Diagram dengan jaringan komputer dengan 4 device
 
 
 ![hasil instalasi ubuntu](images/Diagram_Jaringan_Komputer.png)
