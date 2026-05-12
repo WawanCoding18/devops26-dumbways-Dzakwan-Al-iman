@@ -16,73 +16,81 @@ bersamaan tanpa konflik.
 # 2. Repositori bernama "devops26-dumbways-Dzakwan-Al-iman", ada 3 file yang berisi text
 
 
+Bukti hasil repositori dan file 3 berisi textnya
 
-1. ssh keygen: membuat pasangan publickey dan privatekey.
-
-![hasilpublickey](images/stage1,day3,2.1.png)
+![hasilpublickey](images/bukti.png)
 ---
 
-2. ssh-copy-id wawan@192.168.8.208 : Mengirim publickey dari client ke server 
-agar dapat masuk ssh tanpa password
-3. number of keys added 1: Membuktikan bahwa 1 publickey berhasil 
-masuk ke server pada file authorized_key. 
 
-![hasilpublickey](images/stage1,day3,2.2.png)
+
+## 3. Manage tugas repositori menggunakan terminal
+
+1. git init: menginisasi file tersebut.
+2. git add . : menambahkan semua file yang ada pada folder
+ke git.
+3. git commit -m "": memberi comment apa saja/perubahan
+yang terjadi.
+4. git push: mengupload file/folder dari git ke github.
+(tidak pakaia origin karena sudah buat sebelumnya jadi 
+langsung push saja)
+
+![hasilpublickey](images/Nambah3filetxt.png)
 ---
 
-4. ssh wawan@192.168.8.208: Masuk ke ssh, hasilnya berhasil masuknya hanya dengan
-publickey tanpa mengisi password.
 
-![hasilpublickey](images/Stage1,day-3,2.3.png)
+5. git status: Melihat status perubahan pada file/folder.
+6. git log: Melihat commit yang sudah dilakukan apa aja 
+berdasarkan tgl.
+
+![hasilpublickey](images/gitstatus.png)
 ---
 
-## 3. Step by step penggunaan text manipulation (grep, sed, cat, echo)
 
-1. echo
-- echo halo word > menampilkan kembali apa yang ditulis
-- echo halo word > filllle.txt : menampilkan sekaligus menulis text di filllle.txt
+7. Git clone: mengambil data pertama kali dari github ke local
 
-![hasil instalasi ubuntu](images/ubuntu4.png)
----------
-
-2. cat
-- cat file1.txt: lihat isi file1
-- cat file2.txt: lihat isi file2
-- cat file1.txt > file2.txt: menyisipkan isi dari 2 file tersebut ke file3
-- cat file3.txt: isi file3 tersebut gabungan dari isi file1 dan file2.
-
-![hasil instalasi ubuntu](images/stage1,day3,3.1.png)
+![hasil instalasi ubuntu](images/gitclone.png)
 ---------
 
 
-3. sed
-- sed -i 's/halo/oi/g' file1.txt: menggantikan kata halo jadi oi pada file1.txt
-- cat file1.txt: hasilnya yang awalnya kata halo jadi oi
 
-![hasil instalasi ubuntu](images/stage1,day3,3.2.png)
----------
+## 4. Mencari perubahan text pada suatu file di GitHub!
 
-4. grep
-- grep oi file1.txt: mencari kata kunci oi pada file1.txt
-- grep -c oi file1.txt: menghitung ada berapa line pada kata oi di file1.txt
-- grep oi *: mencari kata kunci oi pada seluruh file yang ada
-- grep -c oi *: menghitung ada berapa line pada kata oi di seluruh file yang ada
+1. Mencari perubahan text langsung dari web Githubnya
+- Pada home repositori pencet commits
 
-![hasil instalasi ubuntu](images/stage3,day3,3.3.png)
----------
+![hasil instalasi ubuntu](images/git3.png)
+---
+
+- Pencet id atau pesan yang ingin dilihat
+
+![hasil instalasi ubuntu](images/git2.png)
+---
 
 
-## 4. UFW memberikan akses terhadap port 22, 80, 443, 3000, 5000 dan 6969
+- Tanda merah menandakan tulisan itu telah diganti,
+sedangkan yang tanda hijau menandakan tulisannya
+itu yang terbaru
 
-1. Memberikan akses port
-- sudo ufw allow 22
-- sudo ufw allow 80
-- sudo ufw allow 443
-- sudo ufw allow 3000
-- sudo ufw allow 5000
-- sudo ufw allow 6969
+![hasil instalasi ubuntu](images/git1.png)
+---
 
-2. Melihat status ufw 
-- sudo ufw status
 
-![hasil instalasi ubuntu](images/stage1-day3-4.png)
+2. Mencari perubahan text langsung dari terminal (Yang baru di edit, belum ke add ke github)
+-git diff: menampilkan perubahan text, yang warna merah 
+tulisan itu telah diganti, sedangkan yang tanda hijau menandakan tulisannya
+itu yang terbaru
+
+![hasil instalasi ubuntu](images/git4.png)
+---
+
+
+3. Mencari perubahan text langsung dari terminal (Yang sudah di push ke github)
+- git log --oneline: Untuk membuka id-id commitnya
+- git show id : Untuk melihat perubahan berdasarkan commit idnya
+
+![hasil instalasi ubuntu](images/git5.png)
+---
+
+
+
+
