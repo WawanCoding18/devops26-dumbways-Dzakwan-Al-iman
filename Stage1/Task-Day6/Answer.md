@@ -21,6 +21,7 @@ keamanan data user. Setelah itu, ia meneruskan permintaan user sampai server ter
 dengan code agar domainnya ama port yang dibuat bisa digunakan
 
 ![hasilpublickey](images/w2.png)
+---
 
 
 2. sudo systemctl start nginx: memulai sistem web server nginx
