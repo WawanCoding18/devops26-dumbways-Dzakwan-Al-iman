@@ -6,7 +6,7 @@ Task Completion
 
 # 1. Deploy dengan Node.js
 
-1. git clone https://github.com/dumbwaysdev/wayshub-frontend:
+1. git clone https://github.com/dumbwaysdev/dumbflix-frontend:
 mengirim data pertama kali dari github ke local
 
 ![hasilpublickey](images/nod0.png)
